@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header img {
+    max-height: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.hero .features {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hero .features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero .features ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.hero .features ul li::before {
+    content: "✓";
+    color: #28a745;
+    position: absolute;
+    left: 0;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contact-form h2 {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+}
+
+.contact-form input,
+.contact-form button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
