@@ -1,7 +1,5 @@
 package com.dacs.ltjava.model;
 
-
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -12,9 +10,8 @@ import java.util.Set;
 @ToString
 @RequiredArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
-@Table(name = "doctor")
+@DiscriminatorValue("DOCTOR")
 public class Doctor extends User {
 
     @ManyToMany
